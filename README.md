@@ -16,4 +16,4 @@ When downloading automatically failed, you can manually download:
 Copy the **TrainedCheckPoint Files(`models/` + `logs/`)** from <href> http://47.93.21.181/lucaone/TrainedCheckPoint/* </href> into the directory: `./models/llm/`
 
 ## Reference
-Contact: Xiaoyong Pan (xypan172436@gmail.com)
+Contact: Xiaoyong Pan (2008xypan@sjtu.edu.cn)
