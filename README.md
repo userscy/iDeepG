@@ -9,13 +9,13 @@ torch==2.3.0+cu118
 The pre-trained model weights for iDeepG can be downloaded from: http://www.csbio.sjtu.edu.cn/data/RBPsuite/val_model_epoch_12.pth
 
 ### Command-Line Arguments
-| Argument             |  Type  | Description                                                         |
-|----------------------|:------:|---------------------------------------------------------------------|
-| `--rna_seq_path`     |  str   | **Required**. RNA sequences FASTA file                              |
-| `--prot_seq_path`    |  str   | **Required**. Protein sequence FASTA file                           |
-| `--device`          |  str   | Compute device (`cpu`/`cuda`). Default: auto-select                |
-| `--save_path`       |  str   | **Required**. Output directory                                     |
-| `--model_weights`   |  str   | Model weights path. Default: `./val_model_epoch_12.pth`            |
+| Argument               |  Type  | Description                                                                 |
+|------------------------|:------:|-----------------------------------------------------------------------------|
+| `--rna_seq_path`       |  str   | **Required**. Path to input FASTA file with RNA sequences                   |
+| `--prot_seq_path`      |  str   | **Required**. Path to input FASTA file with protein sequence                |
+| `--device`             |  str   | Compute device (`cpu`/`cuda`).<br>Default: automatically selects CUDA if available |
+| `--save_path`          |  str   | **Required**. Output directory for results                                  |
+| `--model_weights`      |  str   | Model weights path.<br>Default: `./val_model_epoch_12.pth`                  |
 
 ### Running Prediction
 ```bash
