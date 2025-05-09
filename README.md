@@ -19,11 +19,8 @@ The pre-trained model weights for iDeepG can be downloaded from: http://www.csbi
 
 ### Basic Command
 ```bash
-python predict.py \
-  --rna_seq_path rna_sequences.fasta \
-  --prot_seq_path protein_sequence.fasta \
-  --device cuda \
-  --save_path ./results
+python iDeepG_predict.py --rna_seq_path rna_sequences.fasta --prot_seq_path protein_sequence.fasta --device cuda --save_path ./results
+```
 
 ## LucaOne inference checkpoint
 Trained LucaOne Checkpoint FTP: <a href='http://47.93.21.181/lucaone/TrainedCheckPoint/'>TrainedCheckPoint for LucaOne</a>
