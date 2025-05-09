@@ -1,13 +1,17 @@
 # iDeepG: Toward generalizable prediction of protein binding sites on RNAs using cross-attention networks with language models
 
-## 1.Dependency
+## Dependency
 python=3.9.12  
 torch==2.3.0+cu118
 
-## 2.Predict
+## Predict
+### Model Weights
 The pre-trained model weights for iDeepG can be downloaded from: http://www.csbio.sjtu.edu.cn/data/RBPsuite/val_model_epoch_12.pth
 
-## 3. LucaOne inference checkpoint
+### Command-Line Arguments
+| Argument | Type | Default | Description |
+
+## LucaOne inference checkpoint
 Trained LucaOne Checkpoint FTP: <a href='http://47.93.21.181/lucaone/TrainedCheckPoint/'>TrainedCheckPoint for LucaOne</a>
 
 **Notice:**    
