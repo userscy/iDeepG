@@ -9,13 +9,13 @@ torch==2.3.0+cu118
 The pre-trained model weights for iDeepG can be downloaded from: http://www.csbio.sjtu.edu.cn/data/RBPsuite/val_model_epoch_12.pth
 
 ### Command-Line Arguments
-| Argument | Type | Description |  
-| ---- | ---- | ---- |
-| --rna_seq_path | str | Required. Path to the input FASTA file containing RNA sequences |
-| --prot_seq_path | str | Required. Required. Path to the input FASTA file containing protein sequence |
-| --device | str | Device to use for computation (cpu or cuda). Default: automatically selects CUDA if available |
-| --save_path | str | Required. Directory path where the output predictions will be saved |
-| --model_weights | str | Path to the pre-trained model weights file. Default: ./val_model_epoch_12.pth |
+| Argument         | Type   | Description                                                                 |
+|------------------|--------|-----------------------------------------------------------------------------|
+| `--rna_seq_path` | string | **Required**. Path to the input FASTA file containing RNA sequences         |
+| `--prot_seq_path` | string | **Required**. Path to the input FASTA file containing protein sequence     |
+| `--device`       | string | Device to use for computation (`cpu` or `cuda`). Default: automatically selects CUDA if available |
+| `--save_path`    | string | **Required**. Directory path where the output predictions will be saved    |
+| `--model_weights` | string | Path to the pre-trained model weights file. Default: `./val_model_epoch_12.pth` |
 
 ## LucaOne inference checkpoint
 Trained LucaOne Checkpoint FTP: <a href='http://47.93.21.181/lucaone/TrainedCheckPoint/'>TrainedCheckPoint for LucaOne</a>
