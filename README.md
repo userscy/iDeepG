@@ -10,7 +10,7 @@ The pre-trained model weights for iDeepG can be downloaded from: http://www.csbi
 
 ### Command-Line Arguments
 | Argument         | Type   | Description                                                                 |
-|------------------|--------|-----------------------------------------------------------------------------|
+|---------------------|--------|-----------------------------------------------------------------------------|
 | `--rna_seq_path` | str | **Required**. Path to the input FASTA file containing RNA sequences         |
 | `--prot_seq_path` | str | **Required**. Path to the input FASTA file containing protein sequence     |
 | `--device`       | str | Device to use for computation (`cpu` or `cuda`). Default: automatically selects CUDA if available |
