@@ -11,11 +11,11 @@ The pre-trained model weights for iDeepG can be downloaded from: http://www.csbi
 ### Command-Line Arguments
 | Argument         | Type   | Description                                                                 |
 |------------------|--------|-----------------------------------------------------------------------------|
-| `--rna_seq_path` | string | **Required**. Path to the input FASTA file containing RNA sequences         |
-| `--prot_seq_path` | string | **Required**. Path to the input FASTA file containing protein sequence     |
-| `--device`       | string | Device to use for computation (`cpu` or `cuda`). Default: automatically selects CUDA if available |
-| `--save_path`    | string | **Required**. Directory path where the output predictions will be saved    |
-| `--model_weights` | string | Path to the pre-trained model weights file. Default: `./val_model_epoch_12.pth` |
+| `--rna_seq_path` | str | **Required**. Path to the input FASTA file containing RNA sequences         |
+| `--prot_seq_path` | str | **Required**. Path to the input FASTA file containing protein sequence     |
+| `--device`       | str | Device to use for computation (`cpu` or `cuda`). Default: automatically selects CUDA if available |
+| `--save_path`    | str | **Required**. Directory path where the output predictions will be saved    |
+| `--model_weights` | str | Path to the pre-trained model weights file. Default: `./val_model_epoch_12.pth` |
 
 ### Running Prediction
 ```bash
