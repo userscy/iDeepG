@@ -17,7 +17,7 @@ The pre-trained model weights for iDeepG can be downloaded from: http://www.csbi
 | `--save_path`    | string | **Required**. Directory path where the output predictions will be saved    |
 | `--model_weights` | string | Path to the pre-trained model weights file. Default: `./val_model_epoch_12.pth` |
 
-### Basic Command
+### Running Prediction
 ```bash
 python iDeepG_predict.py --rna_seq_path rna_sequences.fasta --prot_seq_path protein_sequence.fasta --device cuda --save_path ./results
 ```
